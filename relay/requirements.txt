@@ -1,0 +1,7 @@
+# 中转服务依赖（Windows VPS 上安装）
+#
+# 安装方式（任选其一）：
+#   1) python -m venv venv && venv\Scripts\pip install -r requirements.txt
+#   2) pip install -r requirements.txt
+fastapi
+uvicorn[standard]
